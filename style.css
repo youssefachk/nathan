@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+.home {
+    width: 100%;
+    height: 30rem;
+    background-image: url("/onepunch.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.home__content{
+ 
+   text-align: center;
+   
+}
+.home__content_title{
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem white; 
+    position: relative;
+    top: 7rem;
+}
+.home_content_text{
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    top: 7rem;
+    font-size: 2rem;
+}
+.cards {
+    
+        width: 100%;
+        height: 30rem;
+        background-image: url("/anime.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+.cards__container{ 
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 30rem;
+        justify-content: center;
+        margin: 0 auto;
+       
+    }
+.cards__images {
+    width: 5rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 2rem;
+    }
+    .cards__images:hover{
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    } 
+
+    .cards__image1{
+    background-image: url("Baklava_600.jpg");
+    }
+.cards__image1:hover{
+animation-name: baklava;
+}
+    @keyframes baklava {
+        50% {background-image: url("/kimsing-cheng-150x150.jpg")}
+        100% {background-image: url(./kakashi.gif)}
+    }
+.cards__image2{
+    background-image: url("/burger.jpg");
+}
+.cards__image2:hover{
+    animation-name: burger;
+}
+@keyframes burger {
+    50% {background-image: url(./KIMSING.gif)}
+    100% {background-image: url(./sakura.gif)}
+}
+.cards__image3{
+    background-image: url("/pizza.jpg");
+}
+.cards__image3:hover{
+    animation-name: pizza;
+}
+@keyframes pizza{
+    50% {background-image: url(./KIM.jpg);}
+    100% {background-image: url(./patrick.gif);}
+}
+.cards__image4{
+    background-image: url("/donuts.jpg");
+}
+.cards__image4:hover {
+    animation-name: donuts;
+}
+@keyframes donuts{
+    50% {background-image: url(./donuts.gif);}
+    100% {background-image: url(./ace.gif);}
+}
+.cards__image5{
+    background-image: url("/loempia.jpg");
+}
+.cards__image5:hover{
+    animation-name: loempia;
+}
+@keyframes loempia {
+    50% {background-image: url(/goku.gif);}
+    100% {background-image: url(./goku.gif);}
+}
+
+.cards__image6{
+    background-image: url("/couscous.jpg");
+}
+.cards__image6:hover{
+    animation-name: couscous;
+}
+@keyframes couscous{
+    50% {background-image: url(./food.gif);}
+    100% {background-image: url(./onepunch.gif);}
+}
+.rotate{
+    width: 100%;
+    height: 30rem;
+    background-image: url("/tenor.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.rotate__content{
+    color: white;
+    
+}
+.rotate__content__image{
+
+    width: 15rem;
+    height: 15rem;
+    transition: transform 2s;
+}
+.rotate__content__image:hover{
+    transform: rotate(108000deg);
+}
+.rotate__content__tekst{
+  color: red;
+}
